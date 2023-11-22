@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# ShopTop (Amazon Clone)
+Shoptop is an e-commerce web application, inspired by Amazon, that provides users with a familiar online shopping experience. The application is built using modern web technologies to showcase a variety of features similar to those found on the Amazon platform.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Authors
 
-## Available Scripts
+- [@Souvik3469](https://github.com/Souvik3469)(Souvik Sen)
 
-In the project directory, you can run:
+<!--
+## Prototype Demo 
+https://tender-vault-frontend.vercel.app
+-->
+<!--
+Firebase error fixed, Now latest error project must be on firebase blaze account for complete deployment
+-->
+## Tech Stack
+- FrontEnd: 
+  - React.js for building the user interface.
+  - Redux for state management.
+  - React Router for navigation.
+- BackEnd: 
+  - NodeJs
+  - Firebase
+ 
+## Features
 
-### `npm start`
+### User Authentication:
+   - Secure user registration and login functionality.
+   - Password hashing for enhanced security.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Login:
+![Login](https://github.com/Souvik3469/ShopTop/blob/main/public/auth.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Product Browsing:
+   - Browse products by category, brand, or search using keywords.
+   - Product details page with images, descriptions, and pricing.
 
-### `npm test`
+#### Products:
+![Products](https://github.com/Souvik3469/ShopTop/blob/main/public/Products.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Shopping Cart:
+   - Add products to the cart for later purchase.
+   - Adjust product quantities and remove items from the cart.
 
-### `npm run build`
+#### Cart:
+![Cart](https://github.com/Souvik3469/ShopTop/blob/main/public/Cart.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Checkout Process:
+   - Secure and straightforward checkout process.
+   - Billing and shipping information capture.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Checkout:
+![Checkout1](https://github.com/Souvik3469/ShopTop/blob/main/public/Checkout1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Payment:
+![Payment](https://github.com/Souvik3469/ShopTop/blob/main/public/Payment.png)
 
-### `npm run eject`
+![Payment1](https://github.com/Souvik3469/ShopTop/blob/main/public/PaymentReceived.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Orders History:
+   - View order history and track the status of previous purchases.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Orders:
+![Orders](https://github.com/Souvik3469/ShopTop/blob/main/public/OrderDetails.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Note:  Project must be on firebase blaze account for complete deployment.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
